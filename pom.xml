@@ -8,7 +8,6 @@
 		<version>2.5.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<!--testtt-->
 	<groupId>tn.esprit.spring</groupId>
 	<artifactId>timesheetDevops</artifactId>
 	<version>1.0</version>
