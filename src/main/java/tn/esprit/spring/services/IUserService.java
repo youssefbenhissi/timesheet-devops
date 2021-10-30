@@ -12,5 +12,4 @@ public interface IUserService {
 	User updateUser(User u);
 	User retrieveUser(String id);
 
-} 
- 
+}

@@ -1,11 +1,12 @@
 package tn.esprit.spring.repository;
 
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
-import tn.esprit.spring.entities.Employe;
 import tn.esprit.spring.entities.Entreprise;
 
-public interface EntrepriseRepository extends CrudRepository<Entreprise, Integer>  {
+@Repository
+public interface EntrepriseRepository extends  CrudRepository<Entreprise, Integer> {
 	
 	
 }
